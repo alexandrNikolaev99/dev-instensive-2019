@@ -1,0 +1,23 @@
+mkdir dev-intensive-2019
+ls -la
+git clone https://github.com/alexandrNikolaev99/dev-instensive-2019.git
+cd dev-intensive-2019\
+pwd
+ls -la
+git remote -v
+git remote set-url origin https://github.com/alexandrNikolaev99/dev-instensive-2019.git
+git remote -v
+git checkout -b hometask_1
+git status
+vim .gitignore
+#sinerex
+esc :wq
+cat .gitignore
+git status
+git add .gitignore
+git commit -m "I'm not a magician1, I'm just learning"
+git log
+git log --pretty=format:"%H [%cd]: %an - %s" --graph --date=format:%c
+git push origin hometask_1
+us nam
+pass
